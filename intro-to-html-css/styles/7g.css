@@ -1,0 +1,30 @@
+p {
+  font-family: 'Times New Roman';
+}
+.dp {
+  width: 50px;
+  height: 50px;  
+  object-fit: cover;
+  object-position: right;
+  border-radius: 25px;
+  
+  margin: 10px 12px 0px 12px;
+  vertical-align: middle;
+}
+.text-box {
+  border:none;
+  font-size: large;
+  vertical-align: middle;
+  margin: 10px 12px 0px 0px;
+
+}
+
+.tweet-button {
+  vertical-align: middle;
+  margin: 10px 0px 0px 0px;
+  padding: 7px 18px 7px 18px;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgb(29, 155, 240);
+  color: white;
+}

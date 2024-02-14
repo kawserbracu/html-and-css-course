@@ -1,0 +1,38 @@
+.sidebar {
+  position:fixed;
+  bottom: 0;
+  left:0;
+  top:55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  /* background-color: white; */
+  
+}
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  justify-content: center; 
+  /* horizontal */
+  align-items: center;
+  /* vertical */
+  flex-direction: column;
+  /* as we used flex-direction: column; 
+  thus the justify-content and 
+  align-items role changed
+  and now the texts are showed below */
+  cursor:pointer;
+}
+.sidebar-link:hover {
+  background-color:rgb(235,235,235) ;
+}
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family:  Roboto, sans-serif;
+  font-size: 10px;
+}

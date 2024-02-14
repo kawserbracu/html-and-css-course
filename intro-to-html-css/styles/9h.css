@@ -1,0 +1,30 @@
+div {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  display: block;
+}
+
+.google-img {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+input {
+  width: 561px;
+  height: 44px;
+  font-weight: 400;
+  border-radius: 22px;
+  border:none;
+  box-shadow: 0px 5px 10px 0px rgba(196, 196, 196, 0.781);
+  text-align:start;
+  font-size: 16px;
+  padding-left: 18px;
+  margin-bottom: 32px;
+}
+.search,.lucky{
+  padding:14px 24px 14px 24px;
+  border:none;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
